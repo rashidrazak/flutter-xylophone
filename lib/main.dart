@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:audioplayers/audio_cache.dart';
 
 void main() => runApp(XylophoneApp());
 
@@ -23,27 +24,48 @@ class _XylophoneAppState extends State<XylophoneApp> {
             children: <Widget>[
               Expanded(
                 child: FlatButton(
-                    color: Colors.red, onPressed: () {}, child: null),
+                  color: Colors.red,
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note1.wav');
+                  },
+                  child: null,
+                ),
               ),
               Expanded(
                 child: FlatButton(
-                    color: Colors.orange, onPressed: () {}, child: null),
+                  color: Colors.orange,
+                  onPressed: () {},
+                  child: null,
+                ),
               ),
               Expanded(
                 child: FlatButton(
-                    color: Colors.yellow, onPressed: () {}, child: null),
+                  color: Colors.yellow,
+                  onPressed: () {},
+                  child: null,
+                ),
               ),
               Expanded(
                 child: FlatButton(
-                    color: Colors.green, onPressed: () {}, child: null),
+                  color: Colors.green,
+                  onPressed: () {},
+                  child: null,
+                ),
               ),
               Expanded(
                 child: FlatButton(
-                    color: Colors.teal, onPressed: () {}, child: null),
+                  color: Colors.teal,
+                  onPressed: () {},
+                  child: null,
+                ),
               ),
               Expanded(
                 child: FlatButton(
-                    color: Colors.blue, onPressed: () {}, child: null),
+                  color: Colors.blue,
+                  onPressed: () {},
+                  child: null,
+                ),
               ),
               Expanded(
                 child: FlatButton(
