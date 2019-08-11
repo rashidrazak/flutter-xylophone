@@ -23,6 +23,7 @@ class _XylophoneAppState extends State<XylophoneApp> {
         onPressed: () {
           playSound(soundNumber);
         },
+        child: null,
       ),
     );
   }
