@@ -1,16 +1,23 @@
-# flutter_xylophone
+<p align="center">
+    <img src="readme-assets/flutter-xylophone.png" alt="Flutter Xylophone Screenshot">
+</p>
 
-A new Flutter application.
+# Flutter Xylophone
 
-## Getting Started
+A simple xylophone app that produce sounds upon touches. Developed using Flutter and third party library from Flutter Packages.
 
-This project is a starting point for a Flutter application.
+### Library Used
 
-A few resources to get you started if this is your first Flutter project:
+- Material
+- Flutter Audioplayers
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Widgets / Classes Used
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- StatefulWidget
+- Scaffold
+- AppBar
+- SafeArea
+- Column
+- Colors
+- Expanded
+- FlatButton
